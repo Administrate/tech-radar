@@ -1,6 +1,6 @@
 ---
 layout: details
-filename: federated_graphql
+filename: federated-graphql
 name: Federated GraphQL
 image: /tech-radar/assets/images/languages-frameworks/graphql.png
 category: languages-frameworks

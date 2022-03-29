@@ -12,9 +12,9 @@ name,ring,quadrant,isNew,description,
 {% endfor %}{% assign lang-adopt = site.languages-frameworks | where:'ring', 'Adopt' %}{% for language in lang-adopt %}{{ language.name }},{{ language.ring }},Languages & Frameworks,false,modal-{{ language.filename }},
 {% endfor %}{% assign lang-trial = site.languages-frameworks | where:'ring', 'Trial' %}{% for language in lang-trial %}{{ language.name }},{{ language.ring }},Languages & Frameworks,false,modal-{{ language.filename }},
 {% endfor %}{% assign lang-assess = site.languages-frameworks | where:'ring', 'Assess' %}{% for language in lang-assess %}{{ language.name }},{{ language.ring }},Languages & Frameworks,false,modal-{{ language.filename }},
-{% endfor %}{% assign lang-drop = site.languages-frameworks | where:'ring', 'Drop' %}{% for language in lang-drop %}{{ language.name }},[depr],Languages & Frameworks,false,modal-{{ language.filename }},
+{% endfor %}{% assign lang-drop = site.languages-frameworks | where:'ring', 'Drop' %}{% for language in lang-drop %}{{ language.name }},{{ language.ring }},Languages & Frameworks,false,modal-{{ language.filename }},
 {% endfor %}{% assign platform-adopt = site.platforms | where:'ring', 'Adopt' %}{% for platform in platform-adopt %}{{ platform.name }},{{ platform.ring }},Platforms,false,modal-{{ platform.filename }},
 {% endfor %}{% assign platform-trial = site.platforms | where:'ring', 'Trial' %}{% for platform in platform-trial %}{{ platform.name }},{{ platform.ring }},Platforms,false,modal-{{ platform.filename }},
 {% endfor %}{% assign platform-assess = site.platforms | where:'ring', 'Assess' %}{% for platform in platform-assess %}{{ platform.name }},{{ platform.ring }},Platforms,false,modal-{{ platform.filename }},
-{% endfor %}{% assign platform-drop = site.platforms | where:'ring', 'Drop' %}{% for platform in platform-drop %}{{ platform.name }},[depr],Platforms,false,modal-{{ platform.filename }},
-{% endfor %}
+{% endfor %}{% assign platform-drop = site.platforms | where:'ring', 'Drop' %}{% for platform in platform-drop %}{{ platform.name }},{{ platform.ring }},Platforms,false,modal-{{ platform.filename }},
+{%- endfor -%}
