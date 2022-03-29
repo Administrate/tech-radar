@@ -11,7 +11,7 @@ layout: default
 				<div class="column w-40">
 					<h2>Tech radar</h2>
 					<p>
-						The Radar is a document that sets out the changes that are currently interesting regarding software development in our company. <br />
+						The Radar is a document that describes the technology landscape as applied at Administrate. <br />
 						It is a knowledge base about where we are today as a company and where we want to go.
 					</p>
 				</div>
@@ -19,10 +19,18 @@ layout: default
 				<div class="column o-20 w-40">
 					<div class="has-background">
 						<h2>Aim of the tech radar</h2>
+						<ul>
+							<li>Centralize knowledge of what our favoured tech stack is.</li>
+							<li>Provides opinion and guidance on new technology frontiers.</li>
+							<li>Captures relevant decisions on the changing technology landscape.</li>
+						</ul>
 						<p>
-							It centralizes things in motion that we should pay attention to and consider using in our projects. <br />
-							The original concept comes from thoughtworks, you can read more about it <a href="https://www.thoughtworks.com/radar/faq">here</a>.
+							the original concept comes from thoughtworks, you can read more about it <a href="https://www.thoughtworks.com/radar/faq">here</a>.
 						</p>
+						<h2>What isn't on the radar</h2>
+						<ul>
+							<li>Individual libraries.</li>
+						</ul>
 					</div>
 				</div>
 			</div>
@@ -41,7 +49,7 @@ layout: default
 		<div class="page-wrapper">
 			<h2 class="text-center">4 categories</h2>
 			<div class="grid-flex">
-				<div class="column"><a href="{{ site.baseurl }}/techniques/" class="btn bg-gradient-green">Techniques</a></div>
+				<div class="column"><a href="{{ site.baseurl }}/techniques/" class="btn bg-gradient-green">Techniques</a></div
 				<div class="column"><a href="{{ site.baseurl }}/tools/" class="btn  bg-gradient-blue">Tools</a></div>
 				<div class="column"><a href="{{ site.baseurl }}/languages-frameworks/" class="btn bg-gradient-yellow">Languages & frameworks</a></div>
 				<div class="column"><a href="{{ site.baseurl }}/platforms/" class="btn bg-gradient-main-color">Platforms</a></div>
@@ -57,21 +65,20 @@ layout: default
 		<div class="grid-flex">
 			<div class="column w-50">
 				<h2 id="adopt"><a href="#adopt">Adopt</a></h2>
-				<p>We have capacity to use these solutions, they have already been deployed in production.<br>
-				First choices to start a new project.</p>
+				<p>We feel strongly that Administrate should be using these items, they have already been successfully used within the business.<br>
+				Default choices when starting a new project.</p>
 			</div>
 			<div class="column w-50">
-				<h2 id="can-use"><a href="#can-use">Can Use</a></h2>
-				<p>Pertinence of those solutions have been demonstrated.
-				You can use it on your project but you need to provide a reason to not use the default choice.</p>
+				<h2 id="trial"><a href="#trial">Trial</a></h2>
+				<p>Worth pursuing. Administrate teams can use it in projects that can support the risk.</p>
 			</div>
 			<div class="column w-50">
 				<h2 id="assess"><a href="#assess">Assess</a></h2>
-				<p>These solutions may bring values.
+				<p>Worth exploring.
 				It is necessary to assess and test them in our environment to confirm or not this vision.</p>
 			</div>
 			<div class="column w-50">
-				<h2 id="deprecatedrejected"><a href="#deprecated">Deprecated/ Rejected</a></h2>
+				<h2 id="drop"><a href="#drop">Drop</a></h2>
 				<p>For various reasons, these solutions are no longer the first choices or are not recommended (anymore).</p>
 			</div>
 		</div>

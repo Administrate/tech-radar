@@ -4,7 +4,7 @@ filename: java
 name: Java
 image: /tech-radar/assets/images/languages-frameworks/java.png
 category: languages-frameworks
-ring: Adopt
+ring: Trial
 ---
 
 # What is it ?

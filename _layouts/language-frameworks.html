@@ -2,9 +2,9 @@
 {% include header.html %}
 
 {% assign adopt = site.languages-frameworks | where:'ring', 'Adopt' %}
-{% assign can-use = site.languages-frameworks | where:'ring', 'Can Use' %}
+{% assign trial = site.languages-frameworks | where:'ring', 'Trial' %}
 {% assign assess = site.languages-frameworks | where:'ring', 'Assess' %}
-{% assign deprecated = site.languages-frameworks | where:'ring', 'Deprecated' %}
+{% assign drop = site.languages-frameworks | where:'ring', 'Drop' %}
 
 <main>
   <div class="page-wrapper">
@@ -38,12 +38,12 @@
 
     <div class="grid-flex v-align-middle">
       <div class="column">
-      <h2 class="m-0">Can Use</h2>
+      <h2 class="m-0">Trial</h2>
       </div>
     </div>
 
     <div class="grid-flex grid-cards">
-      {% for language in can-use %}
+      {% for language in trial %}
       <div class="column w-16">
         <a href="{{language.filename}}.html">{{ language.name }}</a>
       </div>
@@ -66,12 +66,12 @@
 
     <div class="grid-flex v-align-middle">
         <div class="column">
-        <h2 class="m-0">[Deprecated]</h2>
+        <h2 class="m-0">Drop</h2>
         </div>
       </div>
   
       <div class="grid-flex grid-cards">
-        {% for language in deprecated %}
+        {% for language in drop %}
         <div class="column w-16">
           <a href="{{language.filename}}.html">{{ language.name }}</a>
         </div>

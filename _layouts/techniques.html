@@ -2,9 +2,9 @@
 {% include header.html %}
 
 {% assign adopt = site.techniques | where:'ring', 'Adopt' %}
-{% assign can-use = site.techniques | where:'ring', 'Can Use' %}
+{% assign trial = site.techniques | where:'ring', 'Trial' %}
 {% assign assess = site.techniques | where:'ring', 'Assess' %}
-{% assign deprecated = site.techniques | where:'ring', 'Deprecated' %}
+{% assign drop = site.techniques | where:'ring', 'Drop' %}
 
 <main>
   <div class="page-wrapper">
@@ -38,12 +38,12 @@
 
     <div class="grid-flex v-align-middle">
       <div class="column">
-      <h2 class="m-0">Can Use</h2>
+      <h2 class="m-0">Trial</h2>
       </div>
     </div>
 
     <div class="grid-flex grid-cards">
-      {% for technique in can-use %}
+      {% for technique in trial %}
       <div class="column w-16">
         <a href="{{technique.filename}}.html">{{ technique.name }}</a>
       </div>
@@ -66,12 +66,12 @@
 
     <div class="grid-flex v-align-middle">
         <div class="column">
-        <h2 class="m-0">[Deprecated]</h2>
+        <h2 class="m-0">Drop</h2>
         </div>
       </div>
   
       <div class="grid-flex grid-cards">
-        {% for technique in deprecated %}
+        {% for technique in drop %}
         <div class="column w-16">
           <a href="{{technique.filename}}.html">{{ technique.name }}</a>
         </div>

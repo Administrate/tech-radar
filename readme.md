@@ -33,8 +33,8 @@ So, to add content to the radar :
   - filename: [name of the md file]
   - name: [title of the page]
   - image: [relative image url]
-  - category: [languages-frameworks or _platforms or techniques or tools]
-  - ring: [Adopt or Can Use or Assess or Deprecated]
+  - category: [languages-frameworks or platforms or techniques or tools]
+  - ring: [Adopt or Trial or Assess or Drop]
 
 Once you have created a new file, you can push it.
 The related item will be presented on the radar.

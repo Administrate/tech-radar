@@ -4,7 +4,7 @@ filename: angular
 name: Angular
 image: /tech-radar/assets/images/languages-frameworks/angular.png 
 category: languages-frameworks
-ring: Can Use
+ring: Drop
 ---
 
 # What is it ?
@@ -26,6 +26,3 @@ Sed ullamcorper nibh eget massa dapibus hendrerit. Nulla facilisi. Aliquam erat 
 # Resources
 - [Cheat sheet](https://angular.io/guide/cheatsheet)
 - [Learn angular](https://hackr.io/tutorials/learn-angular)
-
-# Contacts
-- [Yoan Thirion](https://www.linkedin.com/in/yoanthirion/)
