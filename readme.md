@@ -4,9 +4,7 @@ You can access the published radar [here](https://engineering.getadministrate.co
 
 ## What ?
 
-The Radar is a document that sets out the changes that are currently interesting regarding software development.  
-It is published by a company called Thoughtworks.  
-You can find more information about it [here](https://www.thoughtworks.com/radar/faq).
+The Radar is a document that sets out the changes that are currently interesting regarding software development at Administrate.
 
 ## Why ?
 
@@ -14,10 +12,9 @@ We have developed this radar because we want to document the usage of technologi
 People who want to document something just need to push a new md file in the repository.
 
 ![tech-radar](/assets/images/preview.png)
-
 ![tech-radar](/assets/images/preview-rings.png)
 
-## How to use it ?
+## How to add new technologies ?
 
 The tech radar is built based on the elements specified in the jekyll collections define in the \_config.yml file.
 
