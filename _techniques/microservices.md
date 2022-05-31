@@ -2,7 +2,7 @@
 layout: details
 filename: microservices
 name: Microservices
-image: /tech-radarassets/images/techniques/microservices.png 
+image: /tech-radar/assets/images/techniques/microservices.png 
 category: Techniques
 ring: Trial
 ---
