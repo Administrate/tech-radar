@@ -1,14 +1,14 @@
 ---
 layout: details
 filename: zendesk
-name: ZenDesk
+name: Zendesk
 image: /tech-radar/assets/images/platforms/zendesk.png 
 category: Platforms
 ring: Adopt
 ---
 
 # What is it ?
-ZenDesk is a SaaS platform dedicated to Customer Service
+Zendesk is a SaaS platform dedicated to Customer Service
 
 # Resources
-- [Homepage](https://www.zendesk.co.uk/)
+- [Homepage](https://www.zendesk.com/)
