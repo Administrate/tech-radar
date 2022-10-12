@@ -6,6 +6,7 @@ image: /tech-radar/assets/images/tools/github-copilot.png
 category: Tools
 ring: Assess
 ---
+> 📝 **NOTE**: Before we consider trialing this we need proof that the tech industry has reached a consensus that this tool is safe from a copy-left licensing point of view. Currently there is too much consternation around it's usage to be deemed safe.  
 
 # What is it ?
 
