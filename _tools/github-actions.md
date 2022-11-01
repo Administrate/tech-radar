@@ -11,13 +11,16 @@ ring: Adopt
 
 Github Actions is a continuous integration & delivery platform that helps development teams build, test, and release code and automate their operations.
 
-# When ?
+# Why ?
 
-As of November 1st, we have a working POC in a twin idp project, we will plan to adopt GH Actions
-in the IDP first, and then migrate all throughout November 2022 and into early December our entire
-platform of services.
+Easy declarative automation of build, test and deployment pipelines. Great community documentation, examples and libraries of actions.
+Support for key features:
+- Manual approval steps for promotion to production environment
+- Visibility of deployments though all dev, staging, production environments in one place
 
-By the end of Q4 2022 nothing will use CircleCI, our in house deployment dashboard, or AWS CodePipelines.
+# History
+## Nov 2022
+Github Actions adopted as CI/CD tool of choice replacing combination of CircleCI and AWS CodePipelines used previously
 
 # Resources
 - [Github Actions Docs](https://docs.github.com/en/actions)
